@@ -1,0 +1,794 @@
+    1  sudo su
+    2  cd '/usr/share/example-content' 
+    3  ls
+    4  ll
+    5  exit
+    6  sudo apt-get update
+    7  sudo apt-get install vlc
+    8  sudo add-apt-repository ppa:nicola-onorata/desktop
+    9  sudo apt-get update
+   10  sudo apt-get purge openjdk*
+   11  sudo apt-get purge openjdk*
+   12  pwd
+   13  ls -l | grep jpg | wc -l
+   14  ls -l
+   15  wc -l
+   16  date
+   17  ls -a
+   18  ls --all
+   19  ls -l 14
+   20  clear
+   21  a
+   22  nano alias
+   23  man alias
+   24  history
+   25  history > commande.txt
+   26  ls
+   27  cat commande.txt 
+   28  sudo add-apt-repository ppa:n-muench/programs-ppa
+   29  sudo apt-get update
+   30  sudo apt-get install filezilla
+   31  sudo apt-get purge openjdk*
+   32  sudo add-apt-repository ppa:webupd8team/java
+   33  sudo apt-get update
+   34  sudo apt-get install oracle-java7-installer
+   35  sudo apt-get install oracle-java7-set-default
+   36  wget http://download-cf.jetbrains.com/webide/PhpStorm-7.1.3.tar.gz
+   37  wget http://download-cf.jetbrains.com/webide/PhpStorm-10.0.2.tar.gz
+   38  history
+   39  history > phpstorm.txt
+   40  exit
+   41  ./filezilla
+   42  sudo apt-get update
+   43  sudo apt-get install skype skype-bin
+   44  which pwd
+   45  which grep
+   46  which skype
+   47  pwd
+   48  ls
+   49  ls 3
+   50  history
+   51  history > test.txt
+   52  cat test.txt 
+   53  which filezilla
+   54  cd ..
+   55  ls
+   56  cd ..
+   57  ls
+   58  cd usr
+   59  ls
+   60  cd bin
+   61  ls
+   62  ./filezilla
+   63  cd /
+   64  ls -df
+   65  ls -ld
+   66  ls -al
+   67  ls -F
+   68  ls -l
+   69  ls -t
+   70  ls -lt
+   71  ls -lh
+   72  ls -larth
+   73  ls -lath
+   74  ls -lat
+   75  ls -lathd
+   76  ls -lath
+   77  ls -laths
+   78  ls -lasth
+   79  cd usr/
+   80  ls
+   81  cd sbin/
+   82  ls
+   83  cd dpkg-divert
+   84  cd cppw
+   85  /usr/games
+   86  cd /usr/games
+   87  ls -a
+   88  ls -F
+   89  ls -lasth
+   90  cd /home
+   91  ls
+   92  cd ferry/
+   93  ls
+   94  cd ..
+   95  du
+   96  ls -lasth -du
+   97  ls -lasthdu
+   98  cd /bin/games
+   99  cd /bin
+  100  ls
+  101  ls -F
+  102  cd /usr/games
+  103  du
+  104  ls -F
+  105  which mkdir
+  106  du
+  107  cd /bin
+  108  cd /bin/games
+  109  cd /usr/games
+  110  history
+  111  history > commande.txt
+  112  sudo chmod 777 commande.txt
+  113  history > comm.txt
+  114  history > cd/home/commande.txt
+  115  cd ..
+  116  history > comm.txt
+  117  cd home
+  118  history > comm.txt
+  119  cd /usr/games
+  120  history > cd/home/commande.txt
+  121  sudo history > com.txt
+  122  cd /home
+  123  cathome
+  124  cat home
+  125  ls
+  126  cd ferry
+  127  cat home
+  128  cat commande.txt
+  129  rm commande.txt 
+  130  ls
+  131  history > commande.txt
+  132  cat commande.txt 
+  133  cd/
+  134  cd /
+  135  du -h
+  136  less commande.txt
+  137  less cdrom/
+  138  cd home/
+  139  less commande.txt
+  140  ls
+  141  cd ferry
+  142  ls
+  143  less commande.txt
+  144  cd /home
+  145  mkdir test
+  146  sudo mkdir test
+  147  ls
+  148  rm test/
+  149  rm -R  test/
+  150  ls
+  151  rm -R test/
+  152  sudo rm -R test/
+  153  ls
+  154  exit
+  155  cd /home/ferry/Formation linux/HIB//exemple.txt
+  156  cd /home/ferry/
+  157  ls
+  158  pwd
+  159  mkdir Formation linux
+  160  ls
+  161  rm -r Formation/
+  162  ls
+  163  mkdir 'Formation linux'
+  164  ls
+  165  cd Formation\ linux/
+  166  mkdir HIB
+  167  cd HIB/
+  168  touch exemple.txt
+  169  cat exemple.txt 
+  170  history > exemple.txt 
+  171  cat exemple.txt 
+  172  cd ../..
+  173  rm -r Formation\ linux/
+  174  ls
+  175  ls -a
+  176  pwd
+  177  mkdir -p linux/HIB
+  178  ls
+  179  cd linux/
+  180  ls
+  181  cd ../..
+  182  cd ferry/
+  183  ls -F
+  184  ls -h
+  185  du -sh
+  186  du -sh /home/ferry/linux/HIB/
+  187  cd /home/ferry/linux/HIB/
+  188  touch .cavhe
+  189  ls
+  190  ls -a
+  191  cd /
+  192  ls
+  193  cd var/
+  194  ls
+  195  cd log
+  196  ls
+  197  head syslog 10
+  198  cat syslog
+  199  head syslog 10
+  200  head syslog -n 10
+  201  tail syslog -n 10
+  202  cp syslog /home/ferry/
+  203  cd /home/ferry/
+  204  ls
+  205  ca syslog 
+  206  cat syslog 
+  207  history
+  208  ls
+  209  mv syslog /home/ferry/linux/HIB/
+  210  cd  /home/ferry/linux/HIB/
+  211  ls
+  212  cd ..
+  213  ls
+  214  mkdir lien
+  215  ls
+  216  mkdir lien1
+  217  ls
+  218  touch /home/ferry/linux/lien fichier1
+  219  touch /home/ferry/linux/lien1 fichier2
+  220  ls /home/ferry/linux/lien1 
+  221  ls
+  222  cd lien
+  223  cd /home/ferry/linux
+  224  ls
+  225  mv lien /home/ferry/linux/fichier1
+  226  cd fichier1
+  227  ls
+  228  cd lien
+  229  touch fichier1
+  230  cd ..
+  231  cd lien1
+  232  touch fichier2
+  233  ls
+  234  cd ..
+  235  ls
+  236  rm lien
+  237  rm fichier1
+  238  rm fichier2
+  239  ls
+  240  ln /home/ferry/linux/lien/fichier1 /home/ferry/linux/lien1/fichier2
+  241  cd /home/ferry/linux/lien
+  242  history > fichier1 
+  243  cd /home/ferry/linux/lien1/
+  244  cat fichier2 
+  245  cd ..
+  246  cd lien
+  247  ls
+  248  touch f3
+  249  ls
+  250  ln -s fichier1 f3
+  251  rm f3
+  252  ln -s fichier1 f3
+  253  ls
+  254  ln -s /home/ferry/linux/lien/fichier1 /home/ferry/linux/lien1/f3
+  255  cd /home/ferry/linux/lien1/
+  256  ls
+  257  cat f3
+  258  cd ..
+  259  cd lien
+  260  ls -al
+  261  cd /home/
+  262  mkdir d
+  263  sudo nano /etc/apt/sources.list
+  264  man mkdir
+  265  man usermod
+  266  man cp
+  267  man get-apt
+  268  man get -apt
+  269  man apt-get
+  270  alsamixer
+  271  whatis mkdir
+  272  locate fichier1
+  273  locate f3
+  274  find -name f3
+  275  pwd
+  276  cd linux/
+  277  ls
+  278  cd lien
+  279  ls
+  280  cat f3
+  281  grep %touc%
+  282  grep toucf f3
+  283  grep alias .bashrc
+  284  cd /
+  285  grep alias .bashrc
+  286  cd home/
+  287  grep alias .bashrc
+  288  cd ferry/
+  289  grep alias .bashrc
+  290  grep touch /home/ferry/linux/lien/f3
+  291  grep %t% /home/ferry/linux/lien/f3
+  292  grep -in %t% /home/ferry/linux/lien/f3
+  293  grep -in touch /home/ferry/linux/lien/f3
+  294  grep -inv touch /home/ferry/linux/lien/f3
+  295  grep -inv touch /home/ferry/linux/lien/
+  296  grep -invr touch /home/ferry/linux/lien/
+  297  gedit noms.txt
+  298  sort noms.txt
+  299  sort -o noms_tries.txt noms.txt
+  300  ls
+  301  cat noms_tries.txt 
+  302  wc noms_tries.txt 
+  303  wc-l noms_tries.txt 
+  304  wc -l noms_tries.txt 
+  305  wc -w noms_tries.txt 
+  306  wc -m noms_tries.txt 
+  307  sudo grep log -Ir /var/log
+  308  sudo grep log -Ir /var/log > fer 2>> log.txt
+  309  ls
+  310  cat log.txt 
+  311  cat fer 
+  312  sudo grep log -Ir /var/log > fer 2>> log.txt
+  313  w
+  314  ps
+  315  top
+  316  ps -ejH
+  317  ps -u ferry | grep skype
+  318  kill 1337
+  319  which skype
+  320  cd /usr/bin
+  321  ./skype
+  322  exit
+  323  ls
+  324  cd /
+  325  ls
+  326  cd etc/
+  327  ls
+  328  cd apt
+  329  ls
+  330  cd sources.list.d/
+  331  ls
+  332  cd /
+  333  cd etc/apt
+  334  ls
+  335  cat sources.list
+  336  gedit sources.list
+  337  apt-cache search mysql
+  338  cd /
+  339  cd etc/apt/sources.list
+  340  cd etc/apt/
+  341  ls
+  342  cd sources.list.d/
+  343  ls
+  344  sudo add-apt-repository ppa:noobslab/themes
+  345  sudo apt-get update
+  346  sudo apt-get install mbuntu-y-ithemes-v5
+  347  sudo apt-get install mbuntu-y-icons-v5
+  348  sudo apt-get install unity-tweak-tool
+  349  sudo apt-get install gnome-tweak-tool
+  350  sudo add-apt-repository ppa:noobslab/apps
+  351  sudo apt-get update
+  352  sudo apt-get install slingscold
+  353  sudo apt-get install docky
+  354  sudo apt-get update
+  355  sudo apt-get install mbuntu-y-docky-skins-v5
+  356  history >/home/install_mac_theme.txt 2>> log.log
+  357  history >/home/ferry/install_mac_theme.txt 2>> log.log
+  358  history >/home/ferry/install_mac_theme.txt
+  359  man dpkg
+  360  exit
+  361  dpkg-query -s vlc
+  362  dpkg-query -s apache
+  363  dpkg-query -s lampp
+  364  dpkg-query -s skype
+  365  man dpkg
+  366  cd /
+  367  cd etc/
+  368  gedit hosts
+  369  gedit hostname 
+  370  gedit hosts
+  371  sudo gedit hosts
+  372  sudo gedit hostname 
+  373  sudo gedit hosts
+  374  cd /home/ferry/
+  375  mkdir archive
+  376  ls
+  377  cd /etc
+  378  cd /home/ferry/
+  379  ls
+  380  cd archive/
+  381  touch fichier1.txt fichier2.txt fichier3.txt
+  382  ls
+  383  history > fichier1.txt 
+  384  ls -l | grep sudo > fichier2.txt 
+  385  cat fichier2.txt 
+  386  ls -l | grep apt > fichier2.txt 
+  387  cat fichier2.txt 
+  388  cat fichier1.txt 
+  389  ls -l
+  390  grep sudo fichier1.txt > fichier2.txt 
+  391  cat fichier2.txt 
+  392  grep apt fichier1.txt > fichier2.txt 2>> log.txt
+  393  ls
+  394  cat fichier3.txt 
+  395  cat log.txt 
+  396  cat fichier2.txt 
+  397  grep update fichier1.txt > fichier3.txt 2>> log.txt
+  398  cat log.txt 
+  399  cat fichier3.txt 
+  400  gedit fichier3.txt 
+  401  tar - cvf archive.tar archive
+  402  tar -cvf archive.tar archive
+  403  ls
+  404  rm archive.tar 
+  405  tar -cvf archive.tar /home/ferry/archive
+  406  ls
+  407  rm archive.tar 
+  408  cd ..
+  409  tar -cvf archive.tar /home/ferry/archive
+  410  cd archive/
+  411  ls
+  412  cd ..
+  413  ls
+  414  pwd
+  415  rm archive.tar 
+  416  sudo tar -cvf archive.tar /home/ferry/archive
+  417  ls
+  418  tar -tf archive.tar 
+  419  gzip archive.tar 
+  420  ls
+  421  gunzip archive.tar.gz 
+  422  ls
+  423  bzip2 archive.tar 
+  424  ls
+  425  gunbzip2 archive.tar.bz2 
+  426  bunbzip2 archive.tar.bz2 
+  427  ls
+  428  bunzip2 archive.tar.bz2 
+  429  ls
+  430  tar -rvf fi.txt archive.tar 
+  431  tar -tf archive.tar 
+  432  tar -rvf fi.txt /home/ferry/archive.tar 
+  433  tar -rvf archive.tar /home/ferry/archive/fi.txt
+  434  cd /home/ferry/archive/
+  435  ls
+  436  tar -rvf archive.tar /home/ferry/archive/fi.txt
+  437  tar -rvf /home/ferry/archive.tar /home/ferry/archive/fi.txt
+  438  tar -tf archive.tar 
+  439  tar -tf /home/ferry/archive.tar 
+  440  gzip archive.tar 
+  441  ls
+  442  gunzip archive.tar.gz 
+  443  tar -xvf archive.tar 
+  444  ls
+  445  exit
+  446  history
+  447  tar -xvf /home/ferry/archive.tar 
+  448  ls
+  449  gzip archive.tar 
+  450  ls
+  451  ifconfig
+  452  ifconfig eth0 down
+  453  sudo ifconfig eth0 down
+  454  ifconfig
+  455  ifconfig eth0 up
+  456  sudo ifconfig eth0 up
+  457  exit
+  458  sudo apt-get install git
+  459  git --version
+  460  sudo apt-get upgrade
+  461  sudo apt-get update
+  462  sudo apt-get upgrade
+  463  git --version
+  464  sudo apt-get update
+  465  sudo apt-get install git
+  466  git --version
+  467  sudo apt-get remove git
+  468  sudo apt-get install git
+  469  git --version
+  470  sudo mv WebStorm-145.597.6/ /opt
+  471  node -v
+  472  mpn -v
+  473  npm -v
+  474  ./eclipse
+  475  eclipse
+  476  webstrom.sh
+  477  ./webstrom.sh
+  478  webstorm
+  479  ./webstorm.sh
+  480  alias ws="cd /opt/WebStorm/bin/.webstorm.sh"
+  481  ws
+  482  tar -zxvfWebStrom-2016.1.1.tar.gz /opt
+  483  sudo tar -zxvfWebStrom-2016.1.1.tar.gz /opt
+  484  ls
+  485  ls -l
+  486  sudo tar -zxvf WebStrom-2016.1.1.tar.gz /opt
+  487  cd /opt
+  488  ls
+  489  cd Apache\ maven/
+  490  tar -zxvf apache-maven-3.2.1-bin.tar.gz 
+  491  ls
+  492  mv apache-maven-3.2.1 /opt
+  493  sudo mv apache-maven-3.2.1 /opt
+  494  cd /opt
+  495  ls
+  496  cd Apache\ maven/
+  497  ls
+  498  cd..
+  499  cd apache-maven-3.2.1
+  500  ls -l
+  501  cd ..
+  502  ls
+  503  chmod 777 apache-maven-3.2.1/
+  504  ls -l
+  505  ls
+  506  cd apache-maven-3.2.1/
+  507  ls
+  508  cd bin/
+  509  ls
+  510  ln -s mvn /usr/bin
+  511  sudo ln -s mvn /usr/bin
+  512  ls -al
+  513  sudo ln -s /opt/apache-maven-3.2.1/bin/mvn /usr/bin/
+  514  ls -i
+  515  ls -il
+  516  sudo ln -s /opt/apache-maven-3.2.1/bin/mvn /usr/bin/
+  517  mvn -v
+  518  java version
+  519  java -version
+  520  cd /opt/
+  521  ls
+  522  cd node-v5.10.1-linux-x64/
+  523  ls
+  524  cd bin/
+  525  ls
+  526  sudo ln -s /opt/node-v5.10.1-linux-x64/node /usr/bin/
+  527  sudo ln -s /opt/node-v5.10.1-linux-x64/npm /usr/bin/
+  528  sudo ln -s /opt/node-v5.10.1-linux-x64/node /usr/bin/
+  529  sudo ln -s /opt/node-v5.10.1-linux-x64/bin/node /usr/bin/
+  530  dominiquE1
+  531  sudo ln -s /opt/node-v5.10.1-linux-x64/bin/npm /usr/bin/
+  532  cd ..
+  533  ls
+  534  cd eclipse/
+  535  ls
+  536  cd
+  537  cd /opt/
+  538  ls
+  539  cd eclipse/
+  540  ls
+  541  sudo ln -s /opt/eclipse/eclipse /usr/bin
+  542  cd ..
+  543  ls
+  544  cd WebStorm-145.597.6/
+  545  ls
+  546  cd bin
+  547  ls
+  548  sudo ln -s /opt/WebStorm-145.597.6/bin/webstorm.sh /usr/bin
+  549  ./webstorm.sh
+  550  tar -zxvf eclipse-jee-luna-SR2-linux-gtk-x64.tar.gz 
+  551  tar -zxvf jdk-8u60-linux-x64.tar.gz 
+  552  tar -zxvf node-v5.10.1-linux-x64.tar.xz
+  553  tar -zxvf node-v5.10.1-linux-x64.tar.gz
+  554  tar -xvfj node-v5.10.1-linux-x64.tar.gz
+  555  tar -xvpf node-v5.10.1-linux-x64.tar.gz
+  556  tar -xpvf node-v5.10.1-linux-x64.tar.xz
+  557  which webstrom
+  558  git --version
+  559  mv -r Apache\ maven/ /opt
+  560  mv Apache\ maven/ /opt
+  561  sudo mv -R Apache\ maven/ /opt
+  562  sudo mv Apache\ maven/ /opt
+  563  sudo mv jdk1.8.0_60/ /opt
+  564  sudo mv eclipse/ /opt
+  565  sudo mv node-V5.10.1-linux-x64/ /opt
+  566  sudo mv node-v5.10.1-linux-x64/ /opt
+  567  git --version
+  568  cd /opt
+  569  cd /home/
+  570  ls -a
+  571  cd ferry/
+  572  ls -a
+  573  touch .bash_aliases
+  574  ls -a
+  575  getid .bash_aliases 
+  576  sudo getid .bash_aliases 
+  577  gedit .bash_aliases 
+  578  ./netbeans-8.0.2-javaee-linux.sh
+  579  java --version
+  580  java
+  581  javac
+  582  java -version
+  583  mvn
+  584  cd /usr/bin/
+  585  ls
+  586  ls -l
+  587  mvn
+  588  sudo unlink mvn
+  589  ls -l
+  590  mvn -v
+  591  ls -l
+  592  sudo unlink npm
+  593  sudo unlink node
+  594  node -v
+  595  ls -l
+  596  sudo unlink node
+  597  sudo unlink npm
+  598  ls -l
+  599  unlink webstorm.sh 
+  600  sudo unlink webstorm.sh 
+  601  tar -zxvf WebStorm-10.0.4.tar.gz /opt
+  602  sudo tar -zxvf WebStorm-10.0.4.tar.gz
+  603  ls
+  604  mv WebStorm-141.1550/ /opt
+  605  sudo mv WebStorm-141.1550/ /opt
+  606  cd /opt
+  607  ls
+  608  cd WebStorm-141.1550/
+  609  ls
+  610  cd bin/
+  611  ls
+  612  ./webstorm.sh 
+  613  sudo npm install yo
+  614  sudo npm uninstall yo
+  615  sudo npm install -g yo
+  616  sudo npm install -g bower
+  617  sudo npm install -g grunt-cli
+  618  sudo npm install -g generator-jhipster
+  619  sudo npm install -g ionic
+  620  npm -v
+  621  sudo npm update -g
+  622  sudo npm update -g npm
+  623  npm -v
+  624  grunt -v
+  625  sudo npm install -g cordova
+  626  cd /usr/local/bin/
+  627  ll
+  628  unlink bower
+  629  sudo unlink bower
+  630  ll
+  631  bower -v
+  632  ll
+  633  yo -v
+  634  ll
+  635  cordova -v
+  636  ll
+  637  grunt -
+  638  grunt -v
+  639  man grunt
+  640  ll
+  641  ionic -v
+  642  cd /opt
+  643  ls
+  644  cd node-v5.10.1-linux-x64/
+  645  ls
+  646  cd bin/
+  647  ls
+  648  cd ..
+  649  ls
+  650  cd lib
+  651  ls
+  652  cd node_modules/
+  653  ls
+  654  cd bower/
+  655  ls
+  656  cd bin
+  657  ls
+  658  ll
+  659  sudo ln -s bower /usr/local/bin/bower
+  660  bower -v
+  661  sudo ln -s /opt/node-v5.10.1-linux-x64/lib/node_modules/bower/bin/bower /usr/local/bin/bower
+  662  cd ../../..
+  663  cd ../..
+  664  cd node-v5.10.1-linux-x64/lib/
+  665  ls
+  666  cd node_modules/
+  667  ls
+  668  cd yo
+  669  ls
+  670  cd lib/
+  671  ls
+  672  ln -s /opt/node-v5.10.1-linux-x64/lib/node_modules/yo/lib/cli.js /usr/local/bin/yo
+  673  sudo ln -s /opt/node-v5.10.1-linux-x64/lib/node_modules/yo/lib/cli.js /usr/local/bin/yo
+  674  cd ..
+  675  ls
+  676  cd cordova/
+  677  ls
+  678  cd bin/
+  679  ls
+  680  sudo ln -s /opt/node-v5.10.1-linux-x64/lib/node_modules/cordova/bin/cordova /usr/local/bin/cordova
+  681  cd ../..
+  682  ls
+  683  cd generator-jhipster/
+  684  ls
+  685  cd generators/
+  686  ls
+  687  yo
+  688  cd../..
+  689  cd ../..
+  690  ls
+  691  cd grunt-cli/
+  692  ls
+  693  cd bin/
+  694  ls
+  695  ll
+  696  sudo ln -s /opt/node-v5.10.1-linux-x64/lib/node_modules/grunt-cli/bin/grunt /usr/local/bin/grunt
+  697  cd ../..
+  698  ls
+  699  cd ionic/
+  700  ls
+  701  cd bin/
+  702  ls
+  703  sudo ln -s /opt/node-v5.10.1-linux-x64/lib/node_modules/ionic/bin/ionic /usr/local/bin/ionic
+  704  sudo apt-get upgrade
+  705  sudo apt-get update
+  706  jhipster -v
+  707  sudo apt-get install google-chrome-stable
+  708  sudo apt-get update
+  709  sudo apt-get install google-chrome-stable
+  710  sudo apt-get install google-chrome
+  711  cd /home/ferry/
+  712  mkdir chrome
+  713  cd chrome/
+  714  wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+  715  sudo dpkg -i google-chrome-stable_current_amd64.deb
+  716  sudo apt-get install -f
+  717  mv android-sdk-linux/ /opt
+  718  sudo mv android-sdk-linux/ /opt
+  719  sudo cp android-sdk-linux/ /opt
+  720  ls
+  721  sudo cp android-sdk-linux/ /opt
+  722  sudo cp -R android-sdk-linux/ /opt
+  723  cd /opt/
+  724  rm -r android-sdk-linux/
+  725  ls
+  726  sudo rm -r android-sdk-linux/
+  727  sudo cp -r Android\ studio\ et\ sdk\ x64/ /opt
+  728  git config --global user.email ferryfrancois17@gmail.com
+  729  git config --global user.name savant1
+  730  cd /usr/local/bin/
+  731  ll
+  732  sudo unlink android
+  733  ll
+  734  studio
+  735  ls
+  736  ll
+  737  ls
+  738  ./android 
+  739  sudo ln -s /opt/Android\ studio\ et\ sdk\ x64/android-sdk-linux/tools/android /usr/local/bin/
+  740  sudo ln -s /opt/Android\ studio\ et\ sdk\ x64/android-sdk-linux/tools/android /usr/local/bin/android
+  741  cd ../..
+  742  ls
+  743  cd android-studio/
+  744  ls
+  745  cd bin/
+  746  ls
+  747  sudo ln -s /opt/Android\ studio\ et\ sdk\ x64/android-studio/bin/studio.sh /usr/local/bin/studio
+  748  cd /opt/
+  749  ll
+  750  sudo chmod 777 -R Android\ studio\ et\ sdk\ x64/
+  751  ll
+  752  ./android
+  753  android
+  754  studio
+  755  cd /usr/local/bin/
+  756  ll
+  757  studio
+  758  cd /usr/local/bin/
+  759  ll
+  760  ionic
+  761  man ionic
+  762  ls
+  763  cd home/
+  764  ls
+  765  cd ferry/
+  766  ll
+  767  mkdir dev
+  768  ll
+  769  cd dev/
+  770  mkdir tutoriel1
+  771  cd tutoriel1/
+  772  ll
+  773  cd ..
+  774  ll
+  775  cd tutoriel1/
+  776  git clone https://github.com/thedevbridge/tutoriel1.git
+  777  ll
+  778  cd ..
+  779  ll
+  780  rm tutoriel1/
+  781  sudo rm tutoriel1/
+  782  sudo rm -r tutoriel1/
+  783  ll
+  784  git clone https://github.com/thedevbridge/tutoriel1.git
+  785  ll
+  786  cd tutoriel1/
+  787  ll
+  788  history 2> historiquedecommande.thml
+  789  ll
+  790  git add -A
+  791  git commit -m "liste de commande saisie depuis lors"
+  792  git push origin master
+  793  cat historiquedecommande.thml 
+  794  history >> historiquedecommande.thml
